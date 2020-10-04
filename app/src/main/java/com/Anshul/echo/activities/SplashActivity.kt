@@ -1,4 +1,4 @@
-package com.Aryan.echo.activities
+package com.Anshul.echo.activities
 
 import android.Manifest
 import android.content.Context
@@ -9,7 +9,7 @@ import android.os.Bundle
 import android.os.Handler
 import android.support.v4.app.ActivityCompat
 import android.widget.Toast
-import com.Aryan.echo.R
+import com.Anshul.echo.R
 
 class SplashActivity : AppCompatActivity() {
 
