@@ -1,4 +1,4 @@
-package com.Aryan.echo
+package com.Anshul.echo
 
 import android.support.test.InstrumentationRegistry
 import android.support.test.runner.AndroidJUnit4
