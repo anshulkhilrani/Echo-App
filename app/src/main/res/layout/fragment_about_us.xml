@@ -1,0 +1,64 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:clickable="true"
+    android:paddingTop="3dp"
+    android:background="#ffffff">
+
+    <TextView
+        android:id="@+id/info_about"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/info_icon"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="6dp"
+        android:layout_marginRight="6dp"
+        android:layout_marginBottom="111dp"
+        android:gravity="center_horizontal"
+        android:paddingLeft="2dp"
+        android:paddingTop="6dp"
+        android:paddingRight="2dp"
+        android:paddingBottom="2dp"
+        android:text="A F0rt Product"
+        android:textAlignment="center"
+        android:textColor="#212121"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/info_icon"
+        android:layout_width="302dp"
+        android:layout_height="305dp"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="12dp"
+        android:minWidth="300dp"
+        android:minHeight="150dp"
+        android:src="@drawable/anshul" />
+
+    <TextView
+        android:id="@+id/appVersion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/info_icon"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="6dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginRight="6dp"
+        android:layout_marginBottom="6dp"
+        android:paddingLeft="2dp"
+        android:paddingTop="6dp"
+        android:paddingRight="2dp"
+        android:paddingBottom="2dp"
+        android:text="App version : 1.0"
+        android:textAlignment="center"
+        android:textColor="#212121"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>
