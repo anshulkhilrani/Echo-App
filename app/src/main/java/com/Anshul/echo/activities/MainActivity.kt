@@ -1,4 +1,4 @@
-package com.Aryan.echo.activities
+package com.Anshul.echo.activities
 
 import android.annotation.TargetApi
 import android.app.Notification
@@ -15,12 +15,12 @@ import android.support.v7.widget.DefaultItemAnimator
 import android.support.v7.widget.LinearLayoutManager
 import android.support.v7.widget.RecyclerView
 import android.support.v7.widget.Toolbar
-import com.Aryan.echo.R
-import com.Aryan.echo.adapters.NavigationDrawerAdapter
-import com.Aryan.echo.fragments.MainScreenFragment
+import com.Anshul.echo.R
+import com.Anshul.echo.adapters.NavigationDrawerAdapter
+import com.Anshul.echo.fragments.MainScreenFragment
 import android.support.v4.app.Fragment
 import android.support.v4.app.FragmentActivity
-import com.Aryan.echo.fragments.SongPlayingFragment
+import com.Anshul.echo.fragments.SongPlayingFragment
 
 class MainActivity : AppCompatActivity() {
     object Statified {
