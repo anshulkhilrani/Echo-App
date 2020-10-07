@@ -1,4 +1,4 @@
-package com.Aryan.echo.fragments
+package com.Anshul.echo.fragments
 
 
 import android.app.Activity
@@ -8,7 +8,7 @@ import android.support.v4.app.Fragment
 import android.view.*
 import android.widget.ImageView
 import android.widget.TextView
-import com.Aryan.echo.R
+import com.Anshul.echo.R
 
 
 /**
