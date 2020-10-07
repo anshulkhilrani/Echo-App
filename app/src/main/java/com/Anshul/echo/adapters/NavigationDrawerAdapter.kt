@@ -1,4 +1,4 @@
-package com.Aryan.echo.adapters
+package com.Anshul.echo.adapters
 
 import android.content.Context
 import android.support.v7.widget.RecyclerView
@@ -8,12 +8,12 @@ import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.RelativeLayout
 import android.widget.TextView
-import com.Aryan.echo.R
-import com.Aryan.echo.activities.MainActivity
-import com.Aryan.echo.fragments.AboutUsFragment
-import com.Aryan.echo.fragments.FavoriteFragment
-import com.Aryan.echo.fragments.MainScreenFragment
-import com.Aryan.echo.fragments.SettingsFragment
+import com.Anshul.echo.R
+import com.Anshul.echo.activities.MainActivity
+import com.Anshul.echo.fragments.AboutUsFragment
+import com.Anshul.echo.fragments.FavoriteFragment
+import com.Anshul.echo.fragments.MainScreenFragment
+import com.Anshul.echo.fragments.SettingsFragment
 
 class NavigationDrawerAdapter(_contentList: ArrayList<String>, _getImages: IntArray, _context: Context)
     : RecyclerView.Adapter<NavigationDrawerAdapter.NavViewHolder>() {
