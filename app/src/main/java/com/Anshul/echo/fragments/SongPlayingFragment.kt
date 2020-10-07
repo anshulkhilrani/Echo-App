@@ -1,4 +1,4 @@
-package com.Aryan.echo.fragments
+package com.Anshul.echo.fragments
 
 
 import android.app.Activity
@@ -23,12 +23,12 @@ import android.widget.Toast
 import com.cleveroad.audiovisualization.AudioVisualization
 import com.cleveroad.audiovisualization.DbmHandler
 import com.cleveroad.audiovisualization.GLAudioVisualizationView
-import com.Aryan.echo.CurrentSongHelper
-import com.Aryan.echo.R
-import com.Aryan.echo.Songs
-import com.Aryan.echo.activities.MainActivity
-import com.Aryan.echo.databases.EchoDatabase
-import com.Aryan.echo.utils.SeekBarController
+import com.Anshul.echo.CurrentSongHelper
+import com.Anshul.echo.R
+import com.Anshul.echo.Songs
+import com.Anshul.echo.activities.MainActivity
+import com.Anshul.echo.databases.EchoDatabase
+import com.Anshul.echo.utils.SeekBarController
 import java.sql.Time
 import java.time.LocalTime
 import java.util.*
