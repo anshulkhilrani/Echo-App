@@ -1,7 +1,7 @@
-package com.Aryan.echo.utils
+package com.Anshul.echo.utils
 
 import android.widget.SeekBar
-import com.Aryan.echo.fragments.SongPlayingFragment
+import com.Anshul.echo.fragments.SongPlayingFragment
 
 class SeekBarController : SeekBar.OnSeekBarChangeListener {
     override fun onProgressChanged(p0: SeekBar?, p1: Int, p2: Boolean) {
