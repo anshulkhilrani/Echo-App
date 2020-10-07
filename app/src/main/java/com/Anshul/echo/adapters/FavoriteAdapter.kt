@@ -1,4 +1,4 @@
-package com.Aryan.echo.adapters
+package com.Anshul.echo.adapters
 
 import android.content.Context
 import android.os.Bundle
@@ -9,9 +9,9 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.RelativeLayout
 import android.widget.TextView
-import com.Aryan.echo.R
-import com.Aryan.echo.Songs
-import com.Aryan.echo.fragments.SongPlayingFragment
+import com.Anshul.echo.R
+import com.Anshul.echo.Songs
+import com.Anshul.echo.fragments.SongPlayingFragment
 
 class FavoriteAdapter(_songDetails: ArrayList<Songs>, _context: Context) : RecyclerView.Adapter<FavoriteAdapter.MyViewHolder>() {
     var songDetails: ArrayList<Songs>? = null
