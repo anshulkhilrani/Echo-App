@@ -1,4 +1,4 @@
-package com.Aryan.echo.fragments
+package com.Anshul.echo.fragments
 
 import android.app.Activity
 import android.content.Context
@@ -15,9 +15,9 @@ import android.widget.ImageButton
 import android.widget.ImageView
 import android.widget.RelativeLayout
 import android.widget.TextView
-import com.Aryan.echo.R
-import com.Aryan.echo.Songs
-import com.Aryan.echo.adapters.MainScreenAdapter
+import com.Anshul.echo.R
+import com.Anshul.echo.Songs
+import com.Anshul.echo.adapters.MainScreenAdapter
 import java.util.*
 
 
